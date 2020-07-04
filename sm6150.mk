@@ -171,7 +171,8 @@ PRODUCT_PACKAGES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiParts \
+    VioletParts
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
@@ -393,6 +394,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
+
+#VioletParts init
+PRODUCT_PACKAGES += \
+    init.violetparts.sh \
+    init.violetparts.rc
 
 # Wifi
 PRODUCT_PACKAGES += \
